@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="sub_header">General Knowledge</string>
+    <string name="question1">What is the capital of France?</string>
+    <string name="question2">Which of the following countries are in Europe?</string>
+    <string name="checkbox_greece">Greece</string>
+    <string name="checkbox_burma">Burma</string>
+    <string name="checkbox_luxembourg">Luxembourg</string>
+    <string name="question3">Italy is in ________ Europe</string>
+    <string name="north">North</string>
+    <string name="east">East</string>
+    <string name="south">South</string>
+    <string name="west">West</string>
+    <string name="question4">Munich is ______________</string>
+    <string name="munich_question_1">the capital of Germany</string>
+    <string name="munich_question_2">the capital of Hesse</string>
+    <string name="munich_question_3">the capital and most populous city of Bavaria</string>
+    <string name="question5">Adlof Hitler was the chancellor of</string>
+    <string name="germany">Germany</string>
+    <string name="poland">Poland</string>
+    <string name="denmark">Denmark</string>
+    <string name="evaluate_button">Submit</string>
+    <string name="reset_button">Reset</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6F8FA">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/homoeopathy"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:background="#228B22"
+            android:textSize="@dimen/text_size"
+            android:text="@string/dey"
+            android:layout_toRightOf="@+id/logo"
+            android:layout_toEndOf="@+id/logo"/>
+
+        <ImageView
+            android:id="@+id/doctor"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/doc"
+            android:scaleType="centerCrop"
+            android:layout_below="@id/logo"
+            android:alpha="1"/>
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/doctor"
+            android:text="@string/des"/>
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/desc_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/desc"
+            android:layout_below="@id/doctor"
+            android:text="@string/desval"/>
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/founded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/desc_value"
+            android:text="@string/founded"/>
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/founded_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/desc"
+            android:layout_below="@id/desc_value"
+            android:text="@string/foundedval"/>
+
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/founder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/founded_value"
+            android:text="@string/founder"/>
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/founder_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/desc"
+            android:layout_below="@id/founded_value"
+            android:text="@string/founderval"/>
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/founder_value"
+            android:text="@string/address"/>
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/address_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/desc"
+            android:layout_below="@id/founder_value"
+            android:text="@string/addressval"/>
+
+
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address_value"
+            android:text="@string/link"/>
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:id="@+id/link_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/desc"
+            android:layout_below="@id/address_value"
+            android:autoLink="web"
+            android:text="@string/linkval"/>
+
+    </RelativeLayout>
+</ScrollView>

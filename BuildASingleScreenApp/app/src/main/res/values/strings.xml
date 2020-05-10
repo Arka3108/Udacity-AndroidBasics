@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Build A Single Screen App</string>
+
+    <string name="dey">Dey\'s Homoeo</string>
+    <string name="des">Description: </string>
+    <string name="desval"> Renowned homoeopaths are always there to cure your disease.</string>
+    <string name="founded">Founded: </string>
+    <string name="foundedval">Apr 23, 1990; 30 years ago</string>
+    <string name="founder">Founder: </string>
+    <string name="founderval">Dr. Gautam De</string>
+    <string name="address">Address: </string>
+    <string name="addressval">Bhagirathi Road, PO Chakdaha, Dist Nadia</string>
+    <string name="link">Website: </string>
+    <string name="linkval">www.deyshomoeo.com</string>
+
+</resources>
