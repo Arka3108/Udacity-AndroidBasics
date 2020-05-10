@@ -1,6 +1,7 @@
 # Udacity-AndroidBasics
 
 ## Build A Single Screen App
+It is a single screen app that displays information about a fictional small business.
 ![20200510_141120](https://user-images.githubusercontent.com/46567673/81496428-431ec200-92d5-11ea-9be7-13339c6bd5ba.gif)
 
 
